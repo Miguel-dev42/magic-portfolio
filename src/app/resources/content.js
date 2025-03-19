@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Miguel",
+  lastName: "Figueroa",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "United States/Utah", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Spanish"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -52,11 +52,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Software Engineer</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Miguel Figueroa, a dedicated software developer based in UT, United States. I specialize in mobile app development and web development, with expertise in Swift, Kotlin, Objective-C, Java, React Native, Flutter, Node.js, Express.js, Nest.js, Next.js, Vue.js, Angular.js, PHP/Laravel, Python. I'm passionate about creating efficient, user-focused digital solutions that make a difference. When I'm not coding, I enjoy exploring new technologies and finding creative ways to solve challenges.
+
     </>
   ),
 };
@@ -81,9 +81,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Miguel is an independent native mobile app developer excited about building high-quality experiences that better people's lives. He combines his more than 10 years of professional technical expertise, experience with UX and UI design, and obsessive attention to detail to bring ideas to life.
       </>
     ),
   },
@@ -92,17 +90,18 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Monovo",
+        timeframe: "2022.1 - 2025.1",
+        role: "Mobile Application Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Led the development of a user-centric iOS application, adhering to Monovo's designandApple'sHumanInterface Guidelines,withafocusoncreatinganintuitive userexperience.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Developed and maintained code for seamless data exchangebetween Bluetooth devicesandbackendserversusingGoogleFirebaseandcustomRESTAPIs.
+          </>,
+          <>
+          Stayed updated with the latest mobile development trends to continually improve app performance and user satisfaction.
           </>,
         ],
         images: [
